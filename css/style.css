@@ -1,0 +1,121 @@
+.mycard
+{
+height: 450px;
+background-color: #fee4ca;
+border-radius: 40px ;
+transition: 0.3s ease;
+color: #6b3d2b;
+}
+.mycard div img
+{
+    transform: rotate(-20deg);
+    transition: 0.5s ease;
+
+}
+
+.mycard div button
+{
+    box-shadow: 4px 4px 0 grey;
+}
+
+.mycard:hover 
+{
+    margin-top: -20px;
+}
+.mycard:hover div img
+{
+    margin-top:  -100px;
+    transform: rotate(0deg);
+}
+
+.new
+{
+    position:fixed;
+    top: 200px;
+    right:-20px ;
+    transform: rotate(270deg);
+}
+
+#body
+{
+background-color: #6b3d2b;
+}
+.my
+{
+    background-color: #fee4ca;
+    position: static;
+
+}
+
+.cream
+{
+height: 350px;
+background-color: rgba(255, 0, 0, 0.849);
+border-radius: 20px ;
+}
+.catg
+{
+    font-style: oblique;
+}
+.mycolor
+{
+    background-color: #fee4ca;
+}
+
+.btnm
+{
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+.btnm:hover
+{
+    color: yellow;
+}
+
+.img1 img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text1 h1
+{
+    font-size: 30px;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+
+}
+.photol
+{
+    height: 585px;
+    border: 1px solid;
+    border-radius: 40px;
+}
+.photol img
+{
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 40px;
+   margin-top: 5px;
+   margin-left: 15px;
+}
+.photo2
+{
+    background-color: #ffcb85;
+    height: 585px;
+    border: 1px solid;
+    border-radius: 40px;
+}
+
+.footer1
+{
+    background-color: #fee4ca;
+}
+.copyright
+{
+    background-color: #6b3d2b;
+}
+.btnl button
+{
+    margin-right: 10px;
+}
+
